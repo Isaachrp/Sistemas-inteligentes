@@ -67,6 +67,11 @@ for _ in range(epocas):
   p2 += fa * np.dot(c1.T,g2)
   p1 += fa * np.dot(x.T,g1)
 
+print("p1 =", p1)
+print("p2 =", p2)
+print("p3 =", p3)
+print("p4 =", p4)
+
 
 for h in range(len(y)):
     print('Prediccion: '+str(c4[h]) + '   Resultado'+ str(y[h]))

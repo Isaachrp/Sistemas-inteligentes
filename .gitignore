@@ -4,4 +4,18 @@ Funciones-de-activacion-IHRP.odt
 Funciones-de-activacion-IHRP.pdf
 ejecucion-de-codigo.png
 
+# Entorno virtual
+tf_env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
 
